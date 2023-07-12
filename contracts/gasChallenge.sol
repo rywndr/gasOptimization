@@ -5,7 +5,8 @@ contract gasChallenge {
     //Implement Fixed-Size Array Technique Here
     uint[10] numbers = [1,2,3,4,5,6,7,8,9,10];
     
-    //Implement Caching State Variable Technique Here
+    //Function to check for sum of array
+    //No changes required in this function
     function getSumOfArray() public view returns (uint256) {
         uint sum = 0;
         for (uint i = 0; i < numbers.length; i++) {
